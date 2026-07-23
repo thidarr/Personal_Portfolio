@@ -1,18 +1,18 @@
 function Hero() {
   return (
     <section
-      className="flex flex-col items-start justify-center min-h-[calc(80svh-70px)] px-4 sm:px-8"
+      className="flex flex-col items-start justify-center min-h-[calc(70svh-70px)] px-4 py-4 sm:py-8 sm:px-8"
       id="home"
     >
-      <p className="font-mono text-sm sm:text-base text-accent mb-3">
+      <p className="font-mono text-sm sm:text-base text-accent mb-4">
         Hi, my name is
       </p>
 
-      <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-3">
+      <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4">
         Thidar Aung
       </h1>
 
-      <span className="font-mono text-xs text-accent border border-accent rounded-full py-2 px-3 mb-4 inline-block">
+      <span className="font-mono text-xs text-accent border border-accent rounded-full py-2 px-3 mb-4 sm:mb-5 inline-block">
         Web Developer · Data Enthusiast
       </span>
 
