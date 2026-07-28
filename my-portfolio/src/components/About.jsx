@@ -23,6 +23,40 @@ function About() {
                             where I can keep building and learning.
                         </p>
 
+                    <div className="mt-6">
+                        <p className="font-mono text-sm text-text-h mb-1">Education</p>
+                        <p className="text-text text-sm">
+                            B.Sc. in Information and Communication Technology, Faculty of Information Technology
+                        </p>
+                        <p className="text-text text-sm">Rangsit University</p>
+                    </div>
+
+                    <ul className="font-mono text-sm space-y-3">
+                        <li className="flex justify-between border-b border-border pb-2">
+                            <span className="text-text">Languages</span>
+                            <span className="text-text-h">JavaScript, Python, SQL</span>
+                        </li>
+                        <li className="flex justify-between border-b border-border pb-2">
+                            <span className="text-text">Frontend</span>
+                            <span className="text-text-h">React, Tailwind</span>
+                        </li>
+                        <li className="flex justify-between border-b border-border pb-2">
+                            <span className="text-text">Data</span>
+                            <span className="text-text-h">pandas, SQL</span>
+                        </li>
+                        <li className="flex justify-between border-b border-border pb-2">
+                            <span className="text-text">Tools</span>
+                            <span className="text-text-h">Git, VS Code</span>
+                        </li>
+                    </ul>
+                </div>
+                <div className="order-1 md:order-2 relative w-full h-64 md:h-full">
+                    <img
+                        src={image}
+                        alt="Portrait of me"
+                        className="absolute inset-0 w-full h-full object-cover rounded-lg border border-border"
+                    />
+                </div>
                         <ul className="font-mono text-sm space-y-3">
                             <li className="flex justify-between border-b border-border pb-2">
                                 <span className="text-text">Languages</span>
