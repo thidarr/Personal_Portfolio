@@ -1,13 +1,13 @@
 function Hero() {
   return (
-    <section id="home" className="flex flex-col items-center md:items-start justify-center text-center md:text-left px-4 sm:px-8 md:py-10 py-7">
+    <section id="home" className="flex flex-col items-center md:items-start justify-center text-center md:text-left px-4 sm:px-8 md:py-8 py-7">
       <p className="font-mono text-sm sm:text-base text-accent mb-4">
         Hi, my name is
       </p>
-      <h1 className="text-4xl sm:text-5xl font-display text-white mb-4">
+      <h1 className="text-4xl sm:text-5xl font-display text-white mb-5">
         Thidar Aung
       </h1>
-      <span className="font-mono text-xs text-accent border border-accent rounded-full py-2 px-3 mb-4 sm:mb-5 inline-block">
+      <span className="font-mono text-xs text-accent border border-accent rounded-full py-2 px-3 mb-5 sm:mb-6 inline-block">
         Web Developer · Data Enthusiast
       </span>
       <p className="text-lg sm:text-xl font-mono text-white mb-6 leading-relaxed">
