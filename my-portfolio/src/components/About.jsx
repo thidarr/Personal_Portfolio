@@ -2,7 +2,7 @@ import image from "../assets/selfphoto.jpg"
 function About() {
     return (
         <section id="about" className="md:px-8 px-4  md:text-left text-center ">
-            <div className="border-b border-line md:py-10 py-7">
+            <div className="border-b border-line md:py-8 py-7">
                 <p className="font-mono text-accent mb-4 ">02. Get to know me</p>
                 <h2 className="text-4xl sm:text-5xl font-display text-white mb-5 ">About</h2>
 

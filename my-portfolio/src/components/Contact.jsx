@@ -1,9 +1,9 @@
 function Contact() {
     return (
-        <footer id="contact" className="px-4 sm:px-8 md:text-left  text-center md:py-10 py-7">
+        <footer id="contact" className="px-4 sm:px-8 md:text-left  text-center md:py-8 py-7">
             <p className="font-mono text-accent mb-4">03. Contact</p>
             <h2 className="text-4xl sm:text-5xl font-display text-white mb-6">Get In Touch</h2>
-            <p className="text-text max-w-150 mb-8 leading-relaxed">
+            <p className="text-text mb-8 leading-relaxed">
                 I'm currently looking for opportunities across web development, data,
                 and ML/AI roles. Feel free to reach out — I'd love to hear from you.
             </p>
@@ -11,7 +11,7 @@ function Contact() {
             <div className="flex flex-col items-center md:items-start">
                 <a
                     href="mailto:thidaraung00iii@gmail.com"
-                    className="inline-block px-7 py-3 font-mono text-sm border hover:border-accent hover:text-accent rounded-2xl transition-all duration-200 hover:bg-accent-bg hover:shadow-lg hover:shadow-accent/20 hover:scale-105 mb-10"
+                    className="inline-block px-7 py-3 font-mono text-sm border hover:border-accent hover:text-accent rounded-2xl transition-all duration-200 hover:bg-accent-bg hover:shadow-lg hover:shadow-accent/20 hover:scale-105 mb-8"
                 >
                     Say Hello →
                 </a>
@@ -29,7 +29,7 @@ function Contact() {
                 </div>
             </div>
 
-            <p className="border-t border-line font-mono text-xs text-text md:mt-10 mt-5 py-6">
+            <p className="border-t border-line font-mono text-xs text-text md:mt-7 mt-5 py-6">
                 Built with React & Tailwind CSS.
             </p>
         </footer>
