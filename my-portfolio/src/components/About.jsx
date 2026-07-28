@@ -22,6 +22,14 @@ function About() {
                         where I can keep building and learning.
                     </p>
 
+                    <div className="mt-6">
+                        <p className="font-mono text-sm text-text-h mb-1">Education</p>
+                        <p className="text-text text-sm">
+                            B.Sc. in Information and Communication Technology, Faculty of Information Technology
+                        </p>
+                        <p className="text-text text-sm">Rangsit University</p>
+                    </div>
+
                     <ul className="font-mono text-sm space-y-3">
                         <li className="flex justify-between border-b border-border pb-2">
                             <span className="text-text">Languages</span>
