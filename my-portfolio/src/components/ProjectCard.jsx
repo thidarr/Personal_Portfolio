@@ -1,7 +1,7 @@
 function ProjectCard({ project }) {
     return (
         <div className="border border-border rounded-lg p-6 hover:-translate-y-1 transition-transform duration-200">
-            <h3 className="text-xl font-bold text-white mb-2">{project.title}</h3>
+            <h3 className="text-xl font-medium text-white mb-2">{project.title}</h3>
             <p className="text-text mb-4">{project.description}</p>
             <div className="flex flex-wrap gap-2 mb-4">
                 {project.stack.map((tech) => (
