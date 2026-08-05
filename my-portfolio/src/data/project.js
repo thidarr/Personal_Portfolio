@@ -5,6 +5,7 @@ export const projects = [
         description: "One or two sentences on the problem this solved.",
         stack: ["React", "Node.js", "PostgreSQL"],
         demoLink: "#",
+        demolabel: "View Report",
         githubLink: "#",
     },
     {
@@ -13,6 +14,7 @@ export const projects = [
         description: "What question the data answered, and the key insight.",
         stack: ["Python", "pandas", "Plotly"],
         demoLink: "#",
+        demolabel: "View Report",
         githubLink: "#",
     },
     {
@@ -21,6 +23,7 @@ export const projects = [
         description: "What question the data answered, and the key insight.",
         stack: ["Python", "pandas", "Plotly"],
         demoLink: "#",
+        demolabel: "Live Demo",
         githubLink: "#",
     },
     {
@@ -29,6 +32,7 @@ export const projects = [
         description: "What question the data answered, and the key insight.",
         stack: ["Python", "pandas", "Plotly"],
         demoLink: "#",
+        demolabel: "Live Demo",
         githubLink: "#",
     },
 ];

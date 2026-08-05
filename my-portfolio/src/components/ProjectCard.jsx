@@ -11,8 +11,8 @@ function ProjectCard({ project }) {
                 ))}
             </div>
             <div className="flex gap-4">
-                <a href={project.demoLink} className="font-mono text-sm text-accent hover:underline">
-                    Live Demo →
+                <a href={project.demoLink} className="font-mono text-sm text-text-h hover:text-accent hover:underline">
+                    {project.demolabel} →
                 </a>
                 <a href={project.githubLink} className="font-mono text-sm text-text-h hover:text-accent hover:underline">
                     GitHub →
