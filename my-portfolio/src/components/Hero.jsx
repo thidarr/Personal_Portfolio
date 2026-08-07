@@ -8,7 +8,7 @@ function Hero() {
         Thidar Aung
       </h1>
       <span className="font-mono text-xs text-accent border border-accent rounded-full py-2 px-3 mb-5 sm:mb-6 inline-block">
-        Web Developer · Data Enthusiast
+        ICT Graduate · Web & Data
       </span>
       <p className="text-lg sm:text-xl font-mono text-white mb-6 leading-relaxed">
         I build with code, explore with data, and I'm always curious what's next.
