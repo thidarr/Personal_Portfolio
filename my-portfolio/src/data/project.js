@@ -12,7 +12,7 @@ export const projects = [
         id: 2,
         title: "Agent-Based Modeling of Student Productivity & Mental Health",
         description: "Simulated student productivity and mental health using agent-based modeling with a Cognitive-Behavioral Resource Framework. High-performance habits raised long-term productivity from 0.3 to 0.8 over 800 simulated steps, validated with linear regression (R² = 0.4608).",
-        stack: ["Python", "Agent-Based Modeling", "Linear Regression"],
+        stack: ["Python", "Agent-Based Modeling", "Linear Regression" ,"Matplotlib"],
         demoLink: "/Data_Analytics_in_Agent_Based_Modeling.pdf",
         demoLabel: "View Report",
         githubLink: "https://github.com/thidarr/Agent-Based-Modeling-of-Student-Productivity-and-Mental-Health",

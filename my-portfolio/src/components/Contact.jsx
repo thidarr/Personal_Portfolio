@@ -1,11 +1,10 @@
 function Contact() {
     return (
-        <footer id="contact" className="px-4 sm:px-8 md:text-left  text-center md:py-8 py-7">
+        <footer id="contact" className="px-4 md:px-8 md:text-left  text-center md:py-8 py-7">
             <p className="font-mono text-accent mb-4">03. Contact</p>
-            <h2 className="text-4xl sm:text-5xl font-display text-white mb-6">Get In Touch</h2>
+            <h2 className="text-4xl md:text-5xl font-display text-white mb-6">Get In Touch</h2>
             <p className="text-text mb-8 leading-relaxed">
-                I'm currently looking for opportunities across web development, data,
-                and ML/AI roles. Feel free to reach out — I'd love to hear from you.
+                I'm open to new opportunities — reach out if you'd like to talk.
             </p>
 
             <div className="flex flex-col items-center md:items-start">
@@ -20,7 +19,7 @@ function Contact() {
                     <a href="https://github.com/thidarr" target="_blank" rel="noopener noreferrer" className="text-text hover:text-accent transition-colors">
                         GitHub
                     </a>
-                    <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="text-text hover:text-accent transition-colors">
+                    <a href="https://www.linkedin.com/in/thidar-aung-a36525356/" target="_blank" rel="noopener noreferrer" className="text-text hover:text-accent transition-colors">
                         LinkedIn
                     </a>
                     <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="text-text hover:text-accent transition-colors">
