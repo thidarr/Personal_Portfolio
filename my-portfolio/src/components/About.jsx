@@ -1,14 +1,26 @@
+import { useInView } from "react-intersection-observer";
 import image from "../assets/selfphoto.jpg"
 
 function About() {
+    const { ref, inView } = useInView({
+        triggerOnce: true,
+        threshold: 0.15,
+    });
+
     return (
-        <section id="about" className="md:px-8 px-4 md:text-left text-center">
+        <section
+            ref={ref}
+            id="about"
+            className={`md:px-8 px-4 md:text-left text-center transition-all duration-700 ${
+                inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+            }`}
+        >
             <div className="border-b border-line md:py-8 py-7">
                 <p className="font-mono text-accent mb-4">02. Get to know me</p>
                 <h2 className="text-4xl sm:text-5xl font-display text-white mb-5">About</h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 md:gap-10 gap-5">
-                    <div className="order-2 md:order-1 md:col-span-2 text-text text-sm leading-relaxed space-y-5">
+                    <div className="order-2 md:order-1 md:col-span-2 text-text leading-relaxed space-y-5">
                         <p>
                             I'm a recent ICT graduate from Rangsit University, where I completed a
                             4-month internship as a Front-End Developer at Sprouting Tech, building
@@ -38,21 +50,21 @@ function About() {
                         <div className="mt-5">
                             <h3 className="font-mono text-2xl font-medium text-text-h mb-4">Skills</h3>
                             <ul className="font-mono text-sm space-y-3">
-                                <li className="flex justify-between border-b border-border pb-2">
-                                    <span className="text-text">Languages</span>
-                                    <span className="text-text-h">Python, JavaScript, SQL</span>
+                                <li className="flex justify-between gap-4 border-b border-border pb-2">
+                                    <span className="text-text shrink-0">Languages</span>
+                                    <span className="text-text-h text-right">JavaScript, Python, SQL</span>
                                 </li>
-                                <li className="flex justify-between border-b border-border pb-2">
-                                    <span className="text-text">Frontend</span>
-                                    <span className="text-text-h">React, Next.js, Tailwind</span>
+                                <li className="flex justify-between gap-4 border-b border-border pb-2">
+                                    <span className="text-text shrink-0">Frontend</span>
+                                    <span className="text-text-h text-right">React, Next.js, Tailwind</span>
                                 </li>
-                                <li className="flex justify-between gap-10 border-b border-border pb-2">
-                                    <span className="text-text">Data</span>
-                                    <span className="text-text-h text-right">numpy, pandas, scikit-learn, Power BI, Excel</span>
+                                <li className="flex justify-between gap-4 border-b border-border pb-2">
+                                    <span className="text-text shrink-0">Data</span>
+                                    <span className="text-text-h text-right">pandas, scikit-learn, Power BI</span>
                                 </li>
-                                <li className="flex justify-between gap-10 border-b border-border pb-2">
-                                    <span className="text-text">Tools</span>
-                                    <span className="text-text-h text-right">Git, VS Code, Figma</span>
+                                <li className="flex justify-between gap-4 border-b border-border pb-2">
+                                    <span className="text-text shrink-0">Tools</span>
+                                    <span className="text-text-h text-right">Git, Figma, VS Code</span>
                                 </li>
                             </ul>
                         </div>
