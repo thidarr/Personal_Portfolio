@@ -52,7 +52,7 @@ function About() {
                             <ul className="font-mono text-sm space-y-3">
                                 <li className="flex justify-between gap-4 border-b border-border pb-2">
                                     <span className="text-text shrink-0">Languages</span>
-                                    <span className="text-text-h text-right">JavaScript, Python, SQL</span>
+                                    <span className="text-text-h text-right"> Python, JavaScript</span>
                                 </li>
                                 <li className="flex justify-between gap-4 border-b border-border pb-2">
                                     <span className="text-text shrink-0">Frontend</span>
@@ -60,7 +60,7 @@ function About() {
                                 </li>
                                 <li className="flex justify-between gap-4 border-b border-border pb-2">
                                     <span className="text-text shrink-0">Data</span>
-                                    <span className="text-text-h text-right">pandas, scikit-learn, Power BI</span>
+                                    <span className="text-text-h text-right">Pandas, Scikit-learn, Numpy, SQL, Power BI</span>
                                 </li>
                                 <li className="flex justify-between gap-4 border-b border-border pb-2">
                                     <span className="text-text shrink-0">Tools</span>
