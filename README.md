@@ -1,12 +1,12 @@
-A responsive personal portfolio built with React, Vite, and Tailwind CSS — showcasing web development and data projects, internship experience, and background as an ICT graduate exploring roles across web, data, and AI/ML.
+This is my personal portfolio site, built with React, Vite, and Tailwind CSS. I made it to showcase my web development and data projects, along with my internship experience and background as an ICT graduate looking into roles across web, data, and AI/ML.
 
-Demo link -> https://thidaraung.vercel.app/
+Demo Link : https://thidaraung.vercel.app/
 
-Features
-- Animated Hero with staggered word-reveal text
-- Scroll-triggered section reveals (Intersection Observer)
-- Project showcase with live demos, reports, and GitHub links
-- Fully responsive layout, accessible navigation, reduced-motion support
+What's in it
+- A hero section with text that reveals word by word as the page loads
+- Sections that fade in as you scroll down (using Intersection Observer)
+- A projects section with links to live demos, reports, and GitHub repos
+- Responsive design that works across screen sizes, with reduced-motion support for accessibility
 
-Tech Stack
-- React (Vite) · Tailwind CSS · react-intersection-observer
+Built with
+- React (Vite), Tailwind CSS, react-intersection-observer
