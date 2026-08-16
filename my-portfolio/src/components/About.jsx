@@ -56,15 +56,15 @@ function About() {
                                 </li>
                                 <li className="flex justify-between gap-4 border-b border-border pb-2">
                                     <span className="text-text shrink-0">Frontend</span>
-                                    <span className="text-text-h text-right">React, Next.js, Tailwind</span>
+                                    <span className="text-text-h text-right">React, Next.js, Tailwind CSS</span>
                                 </li>
                                 <li className="flex justify-between gap-4 border-b border-border pb-2">
                                     <span className="text-text shrink-0">Data</span>
-                                    <span className="text-text-h text-right">Pandas, Scikit-learn, Numpy, SQL, Power BI</span>
+                                    <span className="text-text-h text-right">Scikit-learn, Pandas, Numpy, SQL, Power BI, Excel</span>
                                 </li>
                                 <li className="flex justify-between gap-4 border-b border-border pb-2">
                                     <span className="text-text shrink-0">Tools</span>
-                                    <span className="text-text-h text-right">Git, Figma, VS Code</span>
+                                    <span className="text-text-h text-right">Git, Figma</span>
                                 </li>
                             </ul>
                         </div>
