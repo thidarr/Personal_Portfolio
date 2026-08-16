@@ -34,7 +34,7 @@ function Contact() {
                     <a href="https://www.linkedin.com/in/thidar-aung-a36525356/" target="_blank" rel="noopener noreferrer" className="text-text hover:text-accent transition-colors">
                         LinkedIn
                     </a>
-                    <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="text-text hover:text-accent transition-colors">
+                    <a href="/Resume_1.pdf" target="_blank" rel="noopener noreferrer" className="text-text hover:text-accent transition-colors">
                         Resume ↓
                     </a>
                 </div>
