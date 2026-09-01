@@ -64,7 +64,7 @@ function About() {
                                 </li>
                                 <li className="flex justify-between gap-4 border-b border-border pb-2">
                                     <span className="text-text shrink-0">Tools</span>
-                                    <span className="text-text-h text-right">Git, Figma</span>
+                                    <span className="text-text-h text-right">Git & GitHub, Figma, VS Code</span>
                                 </li>
                             </ul>
                         </div>
