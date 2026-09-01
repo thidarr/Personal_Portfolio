@@ -2,7 +2,7 @@ export const projects = [
     {
         id: 1,
         title: "Segmenting and Predicting Tourist Spending Behavior For Optimized Marketing",
-        description: "Analyzed 5,000+ tourist records using Python to uncover spending patterns and traveler segments. Built a Random Forest model to predict spending levels, with findings presented at ICTHM 2024.",
+        description: "Analyzed 5,000+ tourist records using Python to uncover spending patterns and traveler segments. Built a Random Forest model to predict spending levels, with findings presented at ICTHM 2025.",
         stack: ["Python", "pandas", "Random Forest", "Matplotlib"],
         demoLink: "/tourist_spending_analysis.pdf",
         demoLabel: "View Report",
