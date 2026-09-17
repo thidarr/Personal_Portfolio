@@ -1,5 +1,5 @@
 import { useInView } from "react-intersection-observer";
-import image from "../assets/selfphoto.jpg"
+import image from "../assets/selfphoto.jpg";
 
 function About() {
     const { ref, inView } = useInView({
@@ -16,59 +16,108 @@ function About() {
             }`}
         >
             <div className="border-b border-line md:py-8 py-7">
-                <p className="font-mono text-accent mb-4">02. Get to know me</p>
-                <h2 className="text-4xl sm:text-5xl font-display text-white mb-5">About</h2>
+                <p className="font-mono text-accent mb-4">
+                    02. Get to know me
+                </p>
+
+                <h2 className="text-4xl sm:text-5xl font-display text-white mb-5">
+                    About
+                </h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 md:gap-10 gap-5">
                     <div className="order-2 md:order-1 md:col-span-2 text-text leading-relaxed space-y-5">
+
                         <p>
                             I'm a recent ICT graduate from Rangsit University, where I completed a
                             4-month internship as a Front-End Developer at Sprouting Tech, building
                             responsive interfaces with React and Next.js across three client projects
                             under an Agile workflow.
                         </p>
+
                         <p>
                             Alongside development, I've worked on data-driven research, from
                             predicting tourist spending patterns with machine learning to simulating
-                            how lifestyle habits affect student well-being. I like that both sides,
-                            building interfaces and working with data, solve the same core problem:
-                            making complex things clear and usable.
+                            how lifestyle habits affect student well-being. More recently, I built
+                            JobFlow AI, a full-stack application using Next.js, FastAPI, PostgreSQL,
+                            and Gemini API, which gave me hands-on experience connecting frontend,
+                            backend, database, and AI components in one project.
                         </p>
+
                         <p>
-                            I'm currently looking for roles across web development, data, or ML/AI
-                            where I can keep building and learning.
+                            I enjoy working across software development, data, and AI, especially
+                            where I can use technology to solve practical problems. I'm currently
+                            looking for opportunities where I can contribute, keep learning, and
+                            grow as a developer.
                         </p>
 
                         <div className="mt-5">
-                            <h3 className="font-mono text-2xl font-medium text-text-h mb-4">Education</h3>
+                            <h3 className="font-mono text-2xl font-medium text-text-h mb-4">
+                                Education
+                            </h3>
+
                             <p className="text-text leading-relaxed">
                                 B.Sc. in Information and Communication Technology, Faculty of Information Technology
                             </p>
-                            <p className="text-text leading-relaxed">Rangsit University · GPA 3.85</p>
+
+                            <p className="text-text leading-relaxed">
+                                Rangsit University · GPA 3.85
+                            </p>
                         </div>
 
                         <div className="mt-5">
-                            <h3 className="font-mono text-2xl font-medium text-text-h mb-4">Skills</h3>
+                            <h3 className="font-mono text-2xl font-medium text-text-h mb-4">
+                                Skills
+                            </h3>
+
                             <ul className="font-mono text-sm space-y-3">
                                 <li className="flex justify-between gap-4 border-b border-border pb-2">
-                                    <span className="text-text shrink-0">Languages</span>
-                                    <span className="text-text-h text-right"> Python, JavaScript</span>
+                                    <span className="text-text shrink-0">
+                                        Languages
+                                    </span>
+                                    <span className="text-text-h text-right">
+                                        Python, JavaScript, TypeScript, SQL
+                                    </span>
                                 </li>
+
                                 <li className="flex justify-between gap-4 border-b border-border pb-2">
-                                    <span className="text-text shrink-0">Frontend</span>
-                                    <span className="text-text-h text-right">React, Next.js, Tailwind CSS</span>
+                                    <span className="text-text shrink-0">
+                                        Frontend
+                                    </span>
+                                    <span className="text-text-h text-right">
+                                        React, Next.js, Tailwind CSS
+                                    </span>
                                 </li>
+
                                 <li className="flex justify-between gap-4 border-b border-border pb-2">
-                                    <span className="text-text shrink-0">Data</span>
-                                    <span className="text-text-h text-right">Scikit-learn, Pandas, Numpy, SQL, Power BI, Excel</span>
+                                    <span className="text-text shrink-0">
+                                        Backend & Database
+                                    </span>
+                                    <span className="text-text-h text-right">
+                                        FastAPI, REST API, PostgreSQL
+                                    </span>
                                 </li>
+
                                 <li className="flex justify-between gap-4 border-b border-border pb-2">
-                                    <span className="text-text shrink-0">Tools</span>
-                                    <span className="text-text-h text-right">Git & GitHub, Figma, VS Code</span>
+                                    <span className="text-text shrink-0">
+                                        Data & AI
+                                    </span>
+                                    <span className="text-text-h text-right">
+                                        Pandas, NumPy, Scikit-learn, Power BI, Gemini API
+                                    </span>
+                                </li>
+
+                                <li className="flex justify-between gap-4 border-b border-border pb-2">
+                                    <span className="text-text shrink-0">
+                                        Tools
+                                    </span>
+                                    <span className="text-text-h text-right">
+                                        Git & GitHub, Figma, VS Code
+                                    </span>
                                 </li>
                             </ul>
                         </div>
                     </div>
+
                     <div className="order-1 md:order-2 relative w-full h-64 md:h-full">
                         <img
                             src={image}
