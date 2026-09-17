@@ -24,7 +24,7 @@ function About() {
                     About
                 </h2>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 md:gap-10 gap-5">
+                <div className="grid grid-cols-1 md:grid-cols-3 md:gap-8 gap-5">
                     <div className="order-2 md:order-1 md:col-span-2 text-text leading-relaxed space-y-5">
 
                         <p>
