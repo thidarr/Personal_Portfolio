@@ -77,7 +77,7 @@ function About() {
                                         Languages
                                     </span>
                                     <span className="text-text-h text-right">
-                                        Python, JavaScript, TypeScript, SQL
+                                        Python, JavaScript, TypeScript
                                     </span>
                                 </li>
 
@@ -104,7 +104,7 @@ function About() {
                                         Data & AI
                                     </span>
                                     <span className="text-text-h text-right">
-                                        Pandas, NumPy, Scikit-learn, Power BI, Gemini API
+                                        Pandas, Scikit-learn, Power BI, Gemini API
                                     </span>
                                 </li>
 
