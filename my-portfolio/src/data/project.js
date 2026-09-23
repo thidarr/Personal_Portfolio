@@ -1,10 +1,29 @@
 export const projects = [
   {
     id: 1,
+    title: "AI Customer Request Triage",
+    description:
+      "Built and deployed an AI-powered customer request automation that uses Gemini to classify and summarize requests, validates structured AI output, stores results in PostgreSQL, and routes high-priority requests to Slack. Developed with Codex using a review-first agentic workflow, with API-key authentication, bounded retries, safe failure handling, and automated tests.",
+    stack: [
+      "Python",
+      "FastAPI",
+      "Gemini API",
+      "PostgreSQL",
+      "Slack API",
+      "Pytest",
+      "Codex",
+    ],
+    demoLink: "https://ai-customer-triage.onrender.com",
+    demoLabel: "Live Demo",
+    githubLink: "https://github.com/thidarr/ai-customer-triage",
+  },
+  {
+    id: 2,
     title: "JobFlow AI",
     description:
       "Built and deployed a full-stack AI-powered job application platform for tracking applications, managing candidate profiles and follow-ups, and analyzing candidate-job fit. Integrated Gemini API for structured match analysis and PostgreSQL for persistent application and AI match data.",
     stack: [
+      "Python",
       "Next.js",
       "TypeScript",
       "FastAPI",
@@ -18,7 +37,7 @@ export const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     title:
       "Segmenting and Predicting Tourist Spending Behavior For Optimized Marketing",
     description:
@@ -30,7 +49,7 @@ export const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "Agent-Based Modeling of Student Productivity & Mental Health",
     description:
       "Built a Python-based agent simulation as part of a team using a Cognitive-Behavioral Resource Framework to analyze how lifestyle factors affect student productivity and mental health. Simulated outcomes over 800 time steps and applied multivariate linear regression to evaluate long-term patterns (R² = 0.4608).",
@@ -46,12 +65,4 @@ export const projects = [
       "https://github.com/thidarr/Agent-Based-Modeling-of-Student-Productivity-and-Mental-Health",
   },
 
-  {
-    id: 4,
-    title: "Personal Portfolio Website",
-    description:
-      "Designed and built a personal portfolio site from scratch with React, Vite, and Tailwind CSS, fully responsive, with custom animations, accessible navigation, and a component-based architecture.",
-    stack: ["React", "Vite", "Tailwind CSS"],
-    githubLink: "https://github.com/thidarr/Personal_Portfolio",
-  },
 ];

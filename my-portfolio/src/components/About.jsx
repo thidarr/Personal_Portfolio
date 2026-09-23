@@ -28,26 +28,27 @@ function About() {
                     <div className="order-2 md:order-1 md:col-span-2 text-text leading-relaxed space-y-5">
 
                         <p>
-                            I'm a recent ICT graduate from Rangsit University, where I completed a
-                            4-month internship as a Front-End Developer at Sprouting Tech, building
-                            responsive interfaces with React and Next.js across three client projects
-                            under an Agile workflow.
+                            I'm a recent ICT graduate from Rangsit University. I completed a
+                            4-month internship as a Front-End Developer at Sprouting Tech,
+                            building responsive interfaces with React and Next.js across
+                            three client projects under an Agile workflow.
                         </p>
 
                         <p>
                             Alongside development, I've worked on data-driven research, from
-                            predicting tourist spending patterns with machine learning to simulating
-                            how lifestyle habits affect student well-being. More recently, I built
-                            JobFlow AI, a full-stack application using Next.js, FastAPI, PostgreSQL,
-                            and Gemini API, which gave me hands-on experience connecting frontend,
-                            backend, database, and AI components in one project.
+                            predicting tourist spending patterns with machine learning to
+                            simulating how lifestyle habits affect student well-being. More
+                            recently, I've built AI-powered applications and automations
+                            using FastAPI, PostgreSQL, and Gemini API, including JobFlow AI
+                            and an automated customer request triage system with Slack
+                            integration.
                         </p>
 
                         <p>
-                            I enjoy working across software development, data, and AI, especially
-                            where I can use technology to solve practical problems. I'm currently
-                            looking for opportunities where I can contribute, keep learning, and
-                            grow as a developer.
+                            I enjoy working across software development, data, and AI,
+                            especially where I can use technology to solve practical
+                            problems. I'm currently looking for opportunities where I can
+                            contribute, keep learning, and grow as a developer.
                         </p>
 
                         <div className="mt-5">
@@ -56,7 +57,8 @@ function About() {
                             </h3>
 
                             <p className="text-text leading-relaxed">
-                                B.Sc. in Information and Communication Technology, Faculty of Information Technology
+                                B.Sc. in Information and Communication Technology, Faculty
+                                of Information Technology
                             </p>
 
                             <p className="text-text leading-relaxed">
@@ -111,7 +113,7 @@ function About() {
                                         Tools
                                     </span>
                                     <span className="text-text-h text-right">
-                                        Git & GitHub, Figma, VS Code
+                                        Git & GitHub, Codex, Figma, VS Code
                                     </span>
                                 </li>
                             </ul>
