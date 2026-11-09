@@ -77,7 +77,7 @@ function About() {
                                         Languages
                                     </span>
                                     <span className="text-text-h text-right">
-                                        Python, JavaScript, TypeScript
+                                        Python, Jaba, JavaScript, TypeScript
                                     </span>
                                 </li>
 
@@ -95,7 +95,7 @@ function About() {
                                         Backend & Database
                                     </span>
                                     <span className="text-text-h text-right">
-                                        FastAPI, REST API, PostgreSQL
+                                        FastAPI, REST API, PostgreSQL, Supabase
                                     </span>
                                 </li>
 
@@ -104,7 +104,7 @@ function About() {
                                         Data & AI
                                     </span>
                                     <span className="text-text-h text-right">
-                                        Pandas, Scikit-learn, Power BI, Gemini API
+                                        Pandas, Scikit-learn, YOLO, TensorFlow, Power BI, Excel Gemini API
                                     </span>
                                 </li>
 
@@ -113,7 +113,7 @@ function About() {
                                         Tools
                                     </span>
                                     <span className="text-text-h text-right">
-                                        Git & GitHub, Codex, Figma, VS Code
+                                        Git & GitHub, OpenAI Codex, Claude Code, Figma, VS Code
                                     </span>
                                 </li>
                             </ul>

@@ -65,4 +65,23 @@ export const projects = [
       "https://github.com/thidarr/Agent-Based-Modeling-of-Student-Productivity-and-Mental-Health",
   },
 
+
+  {
+    id: 5,
+    title: "Impact of Sleep Deprivation on Student Productivity",
+    description:
+      "Analyzed data from 200 student records to explore the relationship between sleep deprivation and student productivity. Prepared and processed the data using Microsoft Excel, then applied a K-Nearest Neighbors (KNN) classification model with 5-fold cross-validation, achieving 58.5% average accuracy.",
+    stack: [
+      "Microsoft Excel",
+      "K-Nearest Neighbors (KNN)",
+      "Machine Learning",
+      "Data Analysis",
+    ],
+    demoLink: "/sleep_deprivation_analysis.pdf",
+    demoLabel: "View Report",
+    excelLink: "/ML-Final-Project.xlsx",
+    excelLabel: "View Excel File",
+  },
+
+
 ];
